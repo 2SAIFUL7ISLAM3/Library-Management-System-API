@@ -54,7 +54,7 @@ npx prisma migrate dev
 
 ```bash
 npm run dev
-The API should now be running on http://localhost:3000.
+The API should now be running on  http://localhost:3000.
 ```
 ## Access API Documentation:
 
@@ -62,11 +62,11 @@ The API should now be running on http://localhost:3000.
 
 ## Key Features & Functionality
 
--** Book Management: Add, update, retrieve, and delete books in the library.
--** Member Management: Manage library member information with CRUD operations.
--** Borrowing & Returning Books: Track borrowing and returning activities, with validation for available copies.
--** Overdue Tracking: List overdue borrow records for books not returned within 14 days.
--** Error Handling: Standardized error messages and HTTP status codes for easy troubleshooting.
+-**Book Management**: Add, update, retrieve, and delete books in the library.
+-**Member Management**: Manage library member information with CRUD operations.
+-**Borrowing & Returning Books**: Track borrowing and returning activities, with validation for available copies.
+-**Overdue Tracking**: List overdue borrow records for books not returned within 14 days.
+-**Error Handling**: Standardized error messages and HTTP status codes for easy troubleshooting.
 
 
 
