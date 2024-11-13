@@ -1,31 +1,30 @@
-# Library-Management-System-API
-Project Name & Description
-Library Management System API is a backend application designed to manage books, members, and borrowing activities in a library. The API enables library staff and members to perform various actions such as adding, updating, and deleting books and members, as well as borrowing and returning books. The system tracks overdue books and provides comprehensive management features for the library.
+# Library Management System API
 
-Live URL
-Live Deployment URL
-Link to the live deployment of your backend (Replace with actual URL once deployed)
+## Project Name & Description
+The **Library Management System API** is a backend service designed to manage library resources, memberships, and borrowing activities. This API enables library staff and members to perform essential operations like adding books, managing member data, borrowing, and returning books, while tracking overdue items. The purpose of this project is to streamline library operations, making book and member management efficient and organized.
 
-Technology Stack & Packages
-This project is built using the following technologies:
+## Live URL
+- [Live API Deployment](https://your-live-api-url.com) *(Replace with actual URL when available)*
 
-Node.js - JavaScript runtime used to run the server.
-TypeScript - A superset of JavaScript for improved developer experience.
-Prisma ORM - Used for database management and query generation.
-PostgreSQL - Relational database for storing library data.
-Express.js - Web framework to build the backend API.
-UUID - Used for generating unique identifiers for books, members, and borrow records.
-dotenv - For environment variable management.
-Bcryptjs - For hashing passwords (if applicable).
-Key Packages
-express: Web framework for building the API.
-prisma: ORM for database interactions.
-uuid: For generating unique IDs.
-dotenv: To manage environment variables.
-typescript: TypeScript for static typing and enhanced code quality.
-bcryptjs: For securely handling passwords (optional).
-Setup Instructions
-Prerequisites
-Node.js (v14 or higher)
-PostgreSQL (v12 or higher)
-Prisma CLI (For database migrations)
+## Technology Stack & Packages
+This project was developed using the following technologies and packages:
+
+- **Node.js**: JavaScript runtime for server-side development.
+- **Express.js**: Web framework for building the RESTful API.
+- **Prisma ORM**: Database ORM used for schema management and type-safe database access.
+- **PostgreSQL**: Relational database for storing all library data.
+- **TypeScript**: Superset of JavaScript used for enhanced code reliability and readability.
+
+Additional Packages:
+- **UUID**: For generating unique identifiers for records.
+- **Dotenv**: To load environment variables from a `.env` file.
+- **Cors**: To enable cross-origin requests.
+- **Express-Async-Handler**: Simplifies error handling in asynchronous routes.
+
+## Setup Instructions
+Follow these steps to install and run the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/library-management-api.git
+   cd library-management-api
