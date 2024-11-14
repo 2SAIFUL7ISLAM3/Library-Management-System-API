@@ -4,7 +4,7 @@
 The **Library Management System API** is a backend service designed to manage library resources, memberships, and borrowing activities. This API enables library staff and members to perform essential operations like adding books, managing member data, borrowing, and returning books, while tracking overdue items. The purpose of this project is to streamline library operations, making book and member management efficient and organized.
 
 ## Live URL
-- [Live API Deployment](https://your-live-api-url.com) *(Replace with actual URL when available)*
+- [Live API Deployment](library-management-system-gilt-eta.vercel.app) 
 
 ## Technology Stack & Packages
 This project was developed using the following technologies and packages:
